@@ -1,0 +1,154 @@
+/*Formatação geral*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica,sans-serif;
+    background:#e6e6e6;
+}
+
+#topo{
+   
+    background-color: rgb(247, 182, 0);
+    text-align: center;
+    position: relative;
+    padding: 15px;
+}
+
+h1{
+   
+    font-size: 3em;
+    padding: 15px;
+    
+}
+
+#blog{
+
+    color: white;
+}
+
+#area_logo{
+   
+   padding: 25px;
+   position: relative;
+   
+   
+}
+
+#area_menu{
+   
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+   
+ }
+
+ #topo a:link, #topo a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+#topo a:hover{
+    background: #e6e6e6;
+    color:  rgb(247, 182, 0);
+    padding: 8px 12px;
+}
+
+
+#topo a:active{
+    text-decoration: none;    
+}
+
+/* Inicio da config Area Principal do Meio*/
+
+#area-principal{
+    
+    width: 920px;
+    margin: 15px auto;
+
+}
+
+
+#conteudo-central{
+    width: 660px;
+    background: white;
+    float: left;
+}
+
+
+#conteudo-lateral{
+    width: 240px;
+    background: white;
+    padding: 5px;
+    float: right;
+}
+
+.postagen{
+   padding: 20px;
+   margin-top: 5px;
+   margin-bottom: 20px;
+   
+}
+
+.titulo-postagen{
+    color: orange;
+}
+
+
+.imagem{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.menu-lateral{
+    background: gray;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.paragrafo-lateral{
+    font-size: 0.8em;
+    margin: 10px;
+    text-align: left
+}
+
+
+#categoria-lateral{
+ 
+    width: 240px;
+    background: white;
+    padding: 5px;
+    margin-top: 20px;
+    float: right;
+    
+}
+
+#menu-lista{
+    font-size: 14px;
+    list-style: none;
+    padding: 5px;
+    color: orange;
+}
+
+
+
+
+
+
+
+#rodape{
+
+    background: green;
+    clear: both;
+    text-align: center;
+
+}
